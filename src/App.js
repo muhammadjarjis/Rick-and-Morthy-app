@@ -13,7 +13,7 @@ import CardDetails from "./component/Cards/CardDetails";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App ">
         <Navbar />
       </div>
       <Routes>

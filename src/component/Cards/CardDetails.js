@@ -16,11 +16,11 @@ const CardDetails = () => {
   }, [api]);
 
   return (
-    <div className="container ">
+    <div className="container">
       <div className="row">
         <div className="col-10 mx-auto">
-          <div className="card shadow border border-dark">
-            <div className="row g-0">
+          <div className="card shadow border border-dark  ">
+            <div className="row g-0 ">
               <div className="col-lg-5 col-md-6 col-sm-12 ">
                 <img src={image} alt="" className="img-fluid rounded w-100 h-100" />
               </div>
@@ -51,7 +51,7 @@ const CardDetails = () => {
                     <small className="text-muted">Location :</small>
                     <h6 className="card-text"> {location?.name}</h6>
                   </div>
-                  <div className="col-3 mx-auto">
+                  <div className="col-3 mx-auto mt-5">
                     <Link to="/" className="btn btn-outline-dark">
                       Back
                     </Link>

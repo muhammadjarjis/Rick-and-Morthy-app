@@ -4,8 +4,8 @@ import "../../App.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light mb-4">
-      <div className="container">
+    <nav className="navbar fixed-top navbar-expand-lg bg-light mb-4">
+      <div className="container ">
         <Link to="/" className="fs-3 ubuntu navbar-brand">
           Rick & Morthy <span className="text-primary">App</span>
         </Link>
